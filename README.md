@@ -98,9 +98,14 @@ _Top 10 Champions That Positively And Negatively Influence Win Probability_
 
 ---
 
-## **_Potential Limitations and Areas For Improvement:_**
+### **_Potential Limitations and Areas For Improvement:_**
 1. All of the data related to players on the EU Nordic and East server. While not being a small server by any means, it is still not as popular as servers like Europe West, North America and Korea. As a result, the results obtained from this analysis may not be representative of the entire League of Legends player base, and may only be representative of players on this specific server.
 2. Even though our predictive model ended up using a large number of predictors, there are still many more features that could have provided useful information to improve the model performance. These include the number of minions killed, which is a very important feature that was not included in the dataset, and the flex rank columns, which were removed due to the abundance of missing data.
 3. With more time and computational resources, a better model may be obtained through automated hyperparameter tuning, but given that a good model was fit with relatively little tuning, this limitation is not so severe.
 4. This project only focused on the Classic Summoner's Rift mode, but there is still data on the ARAM and Swiftplay modes available, which may be useful to analyse in the future.
 
+---
+
+## Acknowledgements
+
+Please refer to the [Acknowledgements Wiki Page](https://github.com/aymaan-kj/League-of-Legends-Match-Analysis/wiki/Acknowledgements) for a full list of resources used in this project.
