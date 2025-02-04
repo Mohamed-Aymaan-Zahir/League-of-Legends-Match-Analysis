@@ -12,11 +12,11 @@ As both an aspiring data scientist and a regular player of League of Legends, th
 ![league pic](league_pic.png)
 _Credit: Karin Richter Gómez / Red Bull Content Pool_
 
-League of Legends is a popular 5 versus 5 multiplayer online battle arena (MOBA) game developed and published by Riot Games that is played by well over 30 million players everyday on average. Players choose different characters, known as champions, each with a unique set of abilities, and players fight to earn gold, which can be used to buy items that make their characters stronger. The goal of the game is to work together to destroy the enemy base, protected by turrets and the enemy team itself. Before each game, every player chooses 1 of five different position:
+League of Legends is a popular 5 versus 5 multiplayer online battle arena (MOBA) game developed and published by Riot Games that is played by well over 30 million players everyday on average. Players choose different characters, known as champions, each with a unique set of abilities, and players fight to earn gold, which can be used to buy items that make their characters stronger. The goal of the game is to work together to destroy the enemy base, protected by turrets and the enemy team itself. Before each game, every player chooses one of five different position:
 
-1. **Top laner:** involves mostly playing 1 versus 1 against the enemy top lane to gain an experience lead and typically involves playing tank style champions.
-2. **Jungler:** in charge of assisting all other players to get advantages in their lanes and securing neutral objectives.
-3. **Middle Laner:** similar role to the top laner, but this player has more easy access to the rest of the map and typically serves a damage dealing role.
+1. **Top lane:** involves mostly playing 1 versus 1 against the enemy top lane to gain an experience lead and typically involves playing tank style champions.
+2. **Jungle:** in charge of assisting all other players to get advantages in their lanes and securing neutral objectives.
+3. **Middle Lane:** similar role to the top laner, but has easier access to the rest of the map and typically serves a damage dealing role.
 4. **ADC (Attack Damage Carry):** works with a support to gain items and provide most of the damage for the team. Usually consists of long range champions.
 5. **Support:** in charge of providing utility to the team in terms of healing, shielding, crowd control (abilities that hinder the enemy's ability to fight or move) and gaining vision of the enemy team.
 
@@ -47,9 +47,9 @@ The following steps were taken to clean the data:
 
 ### c) Descriptive Analytics
 
-In order to explore the data and gain information about the data overall, the following actions were done:
+In order to explore the data and gain information about its overall characteristics, the following actions were done:
 
-1. Calculating summary statistics for key values, including the mean, median, min, max and spread.
+1. Calculating summary statistics such as the mean, median, min, max and spread for key features
 2. Visualising the correlation between key features using a correlation map
 3. Visualising the distribution of summoner levels using a histogram
 
@@ -64,7 +64,7 @@ These are the various aspects of the data that I examined and visualised:
 
 ### e) Building the Classifier Model
 
-I used a Catboost classifer model to predict match outcomes and win probabilities due to the existence of complex categorical columns in the data. I employed a 80:20 train-test split and fit the model with some slight manual hyperparameter tuning and calculated the area under the receiver operating characteristic curve (AUC), accuracy and logloss. Further testing the robustness of the test performance metrics, I performed 5 fold cross validation.
+I used a Catboost classifer model to predict match outcomes and win probabilities due to the existence of complex categorical columns in the data. I employed a 80:20 train-test split and fit the model with some slight manual hyperparameter tuning, and then calculated performance metrics such as the area under the receiver operating characteristic curve (AUC), accuracy and logloss. Further testing the robustness of the test performance metrics, I performed 5-fold cross validation.
 
 ### f) Analysing the Classifier Model
 
