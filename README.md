@@ -9,6 +9,8 @@ As both an aspiring data scientist and a regular player of League of Legends, th
 ---
 
 ## What is League of Legends?
+![league pic](league_pic.png)
+_Credit: Karin Richter Gómez / Red Bull Content Pool_
 
 League of Legends is a popular 5 versus 5 multiplayer online battle arena (MOBA) game developed and published by Riot Games that is played by well over 30 million players everyday on average. Players choose different characters, known as champions, each with a unique set of abilities, and players fight to earn gold, which can be used to buy items that make their characters stronger. The goal of the game is to work together to destroy the enemy base, protected by turrets and the enemy team itself. Before each game, every player chooses 1 of five different position:
 
