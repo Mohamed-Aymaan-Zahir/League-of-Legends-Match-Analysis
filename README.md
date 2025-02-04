@@ -1,6 +1,6 @@
 # Predicting Match Outcomes in League of Legends Based on Team Performance and Player Statistics
 
-Please access the project notebook [here](https://nbviewer.org/github/Mohamed-Aymaan-Zahir/League-of-Legends-Match-Analysis/blob/main/League%20of%20Legends%20Match%20Analysis%20and%20Predictive%20Model.ipynb). For a summary of the work done and results, as well as the purpose of this project, and some useful information about the game, please continue reading!
+Please access the project notebook [here](https://nbviewer.org/github/Mohamed-Aymaan-Zahir/League-of-Legends-Match-Analysis/blob/main/League%20of%20Legends%20Match%20Analysis%20and%20Predictive%20Model.ipynb). For a summary of the work done and results, the purpose of this project, and some useful information about the game, please continue reading!
 
 ## Introduction
 
