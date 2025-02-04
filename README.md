@@ -73,16 +73,32 @@ I used the Shapley Additive Explanations library to plot the most important feat
 ---
 ## Summary of Results
 
-**_Key Insights:_**
+### **_Key Insights:_**
 1. Achieved an 88% accuracy, 95% AUC and 0.27 logloss. These metrics did not change much when conducting cross validation.
 2. Win rates do not differ by roles over time, even though on specific game versions some roles may have higher or lower win rates.
-3. As expected, the amount of eliminations and assists that players get differ by roles, with support players having more assists on average and ADC players normally leading the elimination chart. However, the amount of deaths follows an almost identical distribution for each role, contrary to the belief that support and top lane players die more to save their team.
-4. Player performance tends to peak when games are not too long, and diminishes as games take longer, seeing that player KDAs and gold per minute tend to be high for average length games and lower for very long games.
-5. The performance of higher ranked players do differ quite a lot from lower ranked players, with higher ranked players outperforming them on almost every performance metric on average.
-6. The most important features that contribute towards predicting a win probability are the number of assists, damage dealt to objectives and damage dealt to turrets, all of which potentially indicate better team coordination and focus on gaining advantages over the enemy team.
-7. Champions that are usually easier and more accessible for lower ranked players might improve win probability more than obscure champions or champions with high skill expression.
+4. As expected, the amount of eliminations and assists that players get differ by roles, with support players having more assists on average and ADC players normally leading the elimination chart. However, the amount of deaths follows an almost identical distribution for each role, contrary to the belief that support and top lane players die more to save their team.
+5. Player performance tends to peak when games are not too long, and diminishes as games take longer, seeing that player KDAs and gold per minute tend to be high for average length games and lower for very long games.
+6. The performance of higher ranked players do differ quite a lot from lower ranked players, with higher ranked players outperforming them on almost every performance metric on average.
+7. The most important features that contribute towards predicting a win probability are the number of assists, damage dealt to objectives and damage dealt to turrets, all of which potentially indicate better team coordination and focus on gaining advantages over the enemy team.
+8. Champions that are usually easier and more accessible for lower ranked players might improve win probability more than obscure champions or champions with high skill expression.
 
-**_Potential Limitations and Areas For Improvement:_**
+### **_Example Graphs:_**
+
+1.
+ ![boxplot](boxplot.png)
+_Distributions of Eliminations, Deaths and Assists By Role_
+
+2.
+![heatmap](heatmap.png)
+_Difference in Player Performance Based on Rank_
+
+3.
+![bar2](bar2.png)
+_Top 10 Champions That Positively And Negatively Influence Win Probability_
+
+---
+
+## **_Potential Limitations and Areas For Improvement:_**
 1. All of the data related to players on the EU Nordic and East server. While not being a small server by any means, it is still not as popular as servers like Europe West, North America and Korea. As a result, the results obtained from this analysis may not be representative of the entire League of Legends player base, and may only be representative of players on this specific server.
 2. Even though our predictive model ended up using a large number of predictors, there are still many more features that could have provided useful information to improve the model performance. These include the number of minions killed, which is a very important feature that was not included in the dataset, and the flex rank columns, which were removed due to the abundance of missing data.
 3. With more time and computational resources, a better model may be obtained through automated hyperparameter tuning, but given that a good model was fit with relatively little tuning, this limitation is not so severe.
