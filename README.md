@@ -12,17 +12,23 @@ As both an aspiring data scientist and a regular player of League of Legends, th
 ![league pic](league_pic.png)
 _Credit: Karin Richter Gómez / Red Bull Content Pool_
 
-League of Legends is a popular 5 versus 5 multiplayer online battle arena (MOBA) game developed and published by Riot Games that is played by well over 30 million players everyday on average. Players choose different characters, known as champions, each with a unique set of abilities, and players fight to earn gold, which can be used to buy items that make their characters stronger. The goal of the game is to work together to destroy the enemy base, protected by turrets and the enemy team itself. Before each game, every player chooses one of five different position:
+League of Legends is a highly popular 5v5 multiplayer online battle arena (MOBA) game developed and published by Riot Games that is played by over 30 million players daily. Players choose different characters, known as champions, each with a unique set of abilities, and battle to earn gold, which can be used to buy items to enhance their champions' strengths. The primary objective is to work as a team to destroy the enemy base, which is defended by turrets and the opposing team. Before each game, every player chooses one of five different position:
 
-1. **Top lane:** involves mostly playing 1 versus 1 against the enemy top lane to gain an experience lead and typically involves playing tank style champions.
-2. **Jungle:** in charge of assisting all other players to get advantages in their lanes and securing neutral objectives.
-3. **Middle Lane:** similar role to the top laner, but has easier access to the rest of the map and typically serves a damage dealing role.
-4. **ADC (Attack Damage Carry):** works with a support to gain items and provide most of the damage for the team. Usually consists of long range champions.
+1. **Top lane:** Primarily a 1v1 role focused on gaining an experience lead, often played with durable tank champions.
+2. **Jungle:** in charge of roaming between lanes to assist teammates and secure neutral objectives..
+3. **Middle Lane:** Similar to top lane but with easier access to infleunce the map, usually played by damage-dealing champions.
+4. **ADC (Attack Damage Carry):** A long-range damage dealer who scales with items, supported by a teammate.
 5. **Support:** in charge of providing utility to the team in terms of healing, shielding, crowd control (abilities that hinder the enemy's ability to fight or move) and gaining vision of the enemy team.
 
-The game consists of three main modes: the Classic mode (also known as Summoner's Rift), ARAM (short for All Random All Mid) and Swiftplay. Although all modes are represented in the dataset, the focus of this analysis is only on the Classic mode. This mode is split into two versions, draft pick, which is the casual mode that has no consequences for winning or losing, and ranked, which is a mode where players are matched against other players of similar skill levels (ranks). These ranks range from Iron to Challenger, with 4 subdivisions within each rank, and players improve their rank by gaining points known as LP from winning and vice versa from losing. The ranked mode is further divided into two, with one ranked mode for playing alone (solo) and another ranked mode for playing with a group of friends (flex).
+The game features three main modes: Summoner’s Rift (Classic mode), ARAM (All Random All Mid), and Swiftplay. This analysis focuses solely on Summoner’s Rift, which has two variations:
 
-Other terminology used in the notebook are described in the context it is used.
+- Draft Pick – A casual mode with no ranking consequences.
+- Ranked – A competitive mode where players are matched by skill level (ranks). Ranks range from Iron to Challenger, with four subdivisions per tier. Players gain or lose LP (League Points) based on match outcomes. Ranked mode is further divided into:
+    - Solo/Duo Queue – For individuals or duos.
+    - Flex Queue – For full or partial teams.
+
+      
+Any additional game-related terminology is explained in context throughout the notebook.
 
 ---
 
